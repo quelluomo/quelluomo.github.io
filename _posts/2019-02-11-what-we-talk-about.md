@@ -6,8 +6,7 @@ comments: true
 keywords: "flatiron, ruby, cli, news scraper"
 ---
 
-# What we talk about when we talk about <strike>l̶o̶v̶e̶ </strike>
- # ＣＬＩ░ＤΛＴΛ░ＧΣＭ░ＰＲ♢ＪΣＣＴS
+# What we talk about when we talk about <strike>l̶o̶v̶e̶ </strike> # ＣＬＩ░ＤΛＴΛ░ＧΣＭ░ＰＲ♢ＪΣＣＴS
 
 You almost completed your Ruby module and you're like "This is cool. I got everything sorted." and you're not entirely wrong, you have afterall completed a lot of assignments and studied a lot and though a lot about coding, to the point that you'd wake up sometimes at night and tell yourself "This is cool. I got everything sorted."
 

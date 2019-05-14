@@ -117,7 +117,7 @@ hr {
   padding: 0;
   pointer-events: all;
   cursor: pointer;
-	color: #00FECA;
+	
 
   li {
     display: inline-block;
@@ -126,6 +126,7 @@ hr {
 
   a {
     @extend .link;
+	  color: #00FECA;
   }
 }
 

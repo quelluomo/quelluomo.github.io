@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Design
-permalink: /design/
+title: About
+permalink: /about/
 ---
 
 Under construction

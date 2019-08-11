@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Design
-permalink: /design/
+title: About
+permalink: /about/
 ---
 <p class="pink">
 #I'm a graphic designer and developer currently based in Cagliari, Italy.
@@ -14,5 +14,5 @@ I do a lot of menußs, flyers, adverts, and social media content. I design poste
 
 <p>Please get in touch!</p>
 
-<p>You can find me on [Twitter](https://twitter.com/MatteoMuscas) and [Linkedin](https://www.linkedin.com/in/matteomuscas/)</p>
+<p>You can find me on <a href= "https://twitter.com/MatteoMuscas" target="_blank" class= "pink">Twitter</a> and <a href= "https://www.linkedin.com/in/matteomuscas" target="_blank" class= "pink">LinkedIn</a></p>
 

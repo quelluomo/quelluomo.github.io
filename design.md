@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Design
+permalink: /design/
 ---
 
 (Under construction)
 
-#Nice, clean, designs for humans
-##and occasionally robo-vampire-zombies
+<h1 class = "pink">Nice, clean, designs for humans</h1>
+<h1 class = "blue">and occasionally robo-vampire-zombies</h2>
 
-<p class= "pink">[HAVE A LOOK AT MY PORTFOLIO](https://drive.google.com/open?id=1DdNGysPomTrVgzvznIxjbdoNxT_8IGEr)<p>
+<p class= "pink"><a href= "https://drive.google.com/open?id=1DdNGysPomTrVgzvznIxjbdoNxT_8IGEr" target="_blank">HAVE A LOOK AT MY PORTFOLIO]</a><p>

@@ -102,7 +102,7 @@ hr {
 
   span {
     font-weight: 700;
-    color: #FF61BE;
+    color: #D23B9B;
   }
 }
 
@@ -126,13 +126,13 @@ hr {
 
   a {
     @extend .link;
-	  color: #00FECA;
+	  color: #151C46;
   }
 }
 
 .category-title {
   margin: 1em 0 0.5em 0;
-	color: #00FECA;
+	color: #151C46;
 
   &:first-child {
     margin-top: 0;

@@ -15,7 +15,7 @@ permalink: /about/
 
 <h2 class="pink">Software Development</h2>
 
-<p>I am studying to become a full stack web developer at <a href= "https://flatironschool.com/" rel="ext" class= "pink">Flatiron School</a>, and learning to build cool apps, websites, databases, and much more.</p><br>
+<p>I am studying to become a full stack web developer at <a href= "https://flatironschool.com/" rel="ext" class= "pink">Flatiron School</a>, and learning to build cool apps, websites, databases, and much more.</p>
 
 <h2 class="pink">Education</h2>
 

@@ -6,7 +6,7 @@ permalink: /programming/
 
 <p>
 I'm studing to become a Full Stack Developer at <a href="https://flatironschool.com/" rel="ext">Flatiron School</a>.<br>
-I program apps, web-apps, and websites using <strong>HTML/CSS</strong>, <strong>Ruby + Rails</strong>, <strong>Sinatra, and <strong>Javascript</strong>.</p>
+I program apps, web-apps, and websites using <strong>HTML/CSS</strong>, <strong>Ruby + Rails</strong>, <strong>Sinatra</strong>, and <strong>Javascript</strong>.</p>
 
 <p><h2><a href="https://github.com/quelluomo" rel="ext">Here's a link to my GitHub page, where you can find all my public repositories</a></h2></p>
 
@@ -28,5 +28,5 @@ A Ruby app that allows you to read the Italian online newspaper <i>Il Post</i> d
 <p>
 <h2>Game design</h2>
 In my spare time I'm also learning how to make video games.<br>
-I'm focusing on Twine and RPGMaker, and at some point I'd love to get down and dirty with Unity and GameMaker Studio.
+I'm focusing on <strong>Twine</strong> and <strong>RPGMaker</strong>, and at some point I'd love to get down and dirty with Unity and GameMaker Studio.
 </p>

@@ -10,7 +10,7 @@ permalink: /about/
 <h2 class="pink">Design</h2>
 
 <p>The bulk of my graphic design experience is in the commercial, advertisement, and hospitality industries. </p>
-<p>I do a lot of menus, flyers, adverts, and social media content. I design posters and newsletters. <br> Please have a look at my (temporary) <a class= "pink" href="https://drive.google.com/open?id=1DdNGysPomTrVgzvznIxjbdoNxT_8IGEr" rel="ext"portfolio</a>.
+<p>I do a lot of menus, flyers, adverts, and social media content. I design posters and newsletters. <br> Please have a look at my (temporary) <a class= "pink" href="https://drive.google.com/open?id=1DdNGysPomTrVgzvznIxjbdoNxT_8IGEr" rel="ext">portfolio</a>.
 </p>
 
 <h2 class="pink">Software Development</h2>
@@ -23,7 +23,7 @@ permalink: /about/
   <li>Birkbeck, Univerity of London - BA(Hons) degree in Creative Writing</li>
   <li>Flatiron School - Full Stack Software Development School (in progress)</li>
   <li>California Institute of Arts - Graphic Design Specialization (in progress)</li>
-  <li>Vanderbilt Univerity - Literature, New Media, and Narrative</h1>
+  <li>Vanderbilt Univerity - Literature, New Media, and Narrative</li>
   </ul>
 
 <h2 class="blue">Get in touch!</h2>

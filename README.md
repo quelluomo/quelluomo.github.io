@@ -1,13 +1,27 @@
-# Thinkspace
+# linktree
+Own Linktree using HTML, CSS and JavaScript
 
-> Thinkspace is just another minimalist Jekyll theme which designed for technical writing blog.
+## Project Structure:
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg) ![VERSION](https://img.shields.io/badge/current_version-2.5-green.svg) ![TRAVIS-CI](https://travis-ci.org/heiswayi/thinkspace.svg?branch=master)
-
-- **Demo:** https://heiswayi.github.io/thinkspace/
-
-![SCREENSHOT](https://i.imgur.com/1YS078k.png)
-
-## License
-
-[MIT](LICENSE.md)
+```
+root
+|
+|
+|____assets
+     |____geeksfogeeks.png
+     |____github.png
+     |____gmail.png
+     |____instagram.png
+     |____link-solid.svg
+     |____linkedin.png
+     |____medium.png
+     |____my-Image.jpg
+     |____twitter.png
+|____css
+     |____main.css
+|____js
+     |____links.js
+     |____main.js
+|____README.md
+|____index.html
+```

@@ -1,7 +1,7 @@
 export const links = [
   {
     name: "Portfolio",
-    link: "https://sites.google.com/view/sebadas",
+    link: "./portfolio.html",
     image: "./assets/external-link.png",
   },
   {

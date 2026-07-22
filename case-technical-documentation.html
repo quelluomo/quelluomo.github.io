@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owning the Technical Documentation | Matteo Muscas</title>
+
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/case-study.css" />
+
+    <script type="module" defer src="js/theme.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <a href="index.html" class="logo-link">Matteo Muscas</a>
+        <div class="nav-links">
+          <a href="index.html#work" class="nav-link">Work</a>
+          <a href="index.html#about" class="nav-link">About</a>
+          <a href="index.html#contact" class="nav-link">Contact</a>
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="case-hero">
+        <p class="case-eyebrow">Technical Writing · Documentation · Content Ops</p>
+        <h1 class="case-title">Owning the Technical Documentation</h1>
+      </section>
+
+      <section class="case-metadata">
+        <div class="metadata-grid">
+          <div class="metadata-item">
+            <h3>Role</h3>
+            <p>Technical Documentation Designer</p>
+          </div>
+          <div class="metadata-item">
+            <h3>Platform</h3>
+            <p>Docusaurus</p>
+          </div>
+          <div class="metadata-item">
+            <h3>Audience</h3>
+            <p>Internal technical readers</p>
+          </div>
+          <div class="metadata-item">
+            <h3>Focus</h3>
+            <p>Ownership, consistency, accuracy</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="case-note">
+        <p>
+          This is internal work for an enterprise platform. Product names and
+          real screens are left out; the process described is accurate.
+        </p>
+      </div>
+
+      <article class="case-body">
+        <div class="image-placeholder">
+          <p>
+            Hero: a clean, generic docs site layout (sidebar + article),
+            Docusaurus-style, no real content.
+          </p>
+        </div>
+
+        <h2>The problem</h2>
+        <p>
+          The documentation existed, but nobody was actually responsible for it.
+          It was written by two or three people who all had other, bigger jobs
+          to do — so it happened in the gaps, in between everything else.
+        </p>
+        <p>
+          You could tell. Each writer had their own style, so the docs site read
+          like three different sites stitched together. Features got documented
+          when someone had a spare hour, which meant some had detailed pages and
+          others had nothing.
+        </p>
+
+        <h2>What I took on</h2>
+        <p>
+          My job was to make the documentation someone's actual job — mine. I
+          got familiar with the platform on Docusaurus and started writing
+          across the board: feature docs, component references, release notes,
+          and tutorials.
+        </p>
+        <p>
+          But the writing is only half of it. The real work is upstream. I chase
+          the developers and get out of them everything a reader needs to know:
+          how a feature works, what the edge cases are, what a component's props
+          do. Then I turn that into a tutorial, a technical guide, or a manual,
+          get it validated by Product, and publish.
+        </p>
+
+        <div class="image-placeholder">
+          <p>
+            A simple flow diagram: developers → me (drafting) → Product
+            (validation) → published. Shows my role as the connective tissue.
+          </p>
+        </div>
+
+        <h2>How the process works</h2>
+        <p>
+          Content doesn't go from zero to published in one step. It moves
+          through iterations:
+        </p>
+        <ol>
+          <li><strong>A backlog</strong> — often an Excel with the list of features to cover</li>
+          <li>
+            <strong>Key points</strong> — the essential facts and behaviours,
+            gathered from the people who built it
+          </li>
+          <li>
+            <strong>Draft</strong> — written to a consistent style, for the
+            right level of technical reader
+          </li>
+          <li><strong>Validation</strong> — Product checks it for accuracy</li>
+          <li><strong>Publish</strong></li>
+        </ol>
+        <p>
+          The value of a defined process is that anyone can see where a piece of
+          content is, and nothing gets published without a fact-check.
+        </p>
+
+        <div class="image-placeholder">
+          <p>
+            The Excel-to-published pipeline, or a before/after of a page that
+            went from inconsistent to structured.
+          </p>
+        </div>
+
+        <h2>Writing for a technical audience</h2>
+        <p>
+          This audience is different from the product's end users. These are
+          developers and specialists who want completeness and precision, not
+          hand-holding. So the writing shifts: jargon is fine when it's the
+          clearest word, the detail goes deep, and the structure has to let
+          someone scan for the exact thing they came for.
+        </p>
+
+        <h2>What changed</h2>
+        <p>
+          The docs stopped reading like three different people wrote them,
+          because now one person is accountable for the whole thing. Coverage
+          got more even — features get documented as part of the workflow, not
+          whenever someone finds a spare hour. And because everything gets
+          validated by Product before it ships, readers can trust that what's on
+          the page is actually true.
+        </p>
+        <p>
+          Good documentation is invisible when it works — nobody thanks the
+          guide that answered their question before they had to ask it. That's
+          the goal I'm writing towards.
+        </p>
+      </article>
+
+      <section class="next-project">
+        <a href="supaboy-burgers.html" class="next-project-link">
+          <span class="next-label">Next project</span>
+          <span class="next-title">SupaBoy Burgers</span>
+        </a>
+        <a href="index.html#work" class="back-link">← Back to all work</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Matteo Muscas</p>
+    </footer>
+  </body>
+</html>

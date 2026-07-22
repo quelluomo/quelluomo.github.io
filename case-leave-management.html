@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leave & Time-Off Management | Matteo Muscas</title>
+
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/case-study.css" />
+
+    <script type="module" defer src="js/theme.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <a href="index.html" class="logo-link">Matteo Muscas</a>
+        <div class="nav-links">
+          <a href="index.html#work" class="nav-link">Work</a>
+          <a href="index.html#about" class="nav-link">About</a>
+          <a href="index.html#contact" class="nav-link">Contact</a>
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="case-hero">
+        <p class="case-eyebrow">Product Design · UX Research</p>
+        <h1 class="case-title">Leave &amp; Time-Off Management</h1>
+      </section>
+
+      <section class="case-metadata">
+        <div class="metadata-grid">
+          <div class="metadata-item">
+            <h3>Role</h3>
+            <p>Product Designer (end-to-end)</p>
+          </div>
+          <div class="metadata-item">
+            <h3>Platforms</h3>
+            <p>Web + Mobile</p>
+          </div>
+          <div class="metadata-item">
+            <h3>Timeline</h3>
+            <p>Multi-month, iterative</p>
+          </div>
+          <div class="metadata-item">
+            <h3>Focus</h3>
+            <p>Flows, wireframes, usability testing</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="case-note">
+        <p>
+          I designed this internally for an enterprise workforce-management
+          platform. I've left out names, branding, and real screens. The
+          mockups here are generic recreations I made to show the flows and the
+          thinking behind them.
+        </p>
+      </div>
+
+      <article class="case-body">
+        <div class="image-placeholder">
+          <p>
+            Hero: a clean, generic mockup of the request flow on web + mobile
+            side by side. Neutral colours, no real branding.
+          </p>
+        </div>
+
+        <h2>The challenge</h2>
+        <p>
+          The company was moving off a legacy third-party platform and onto one
+          we'd build ourselves. The old setup leaned on external services to
+          handle leave and time-off, and those services set hard limits on what
+          we could actually do.
+        </p>
+        <p>
+          The first brief looked simple: design a flow that lets staff submit a
+          leave or time-off request, and a flow that lets an approver review it
+          and decide. That "simple" brief turned into several months of work
+          across three user roles and two platforms.
+        </p>
+
+        <h2>Who I designed for</h2>
+        <p>
+          I mapped three people, each with their own flow and their own level of
+          control:
+        </p>
+        <ul>
+          <li>
+            <strong>Requester</strong> — submits requests, checks their
+            remaining balance, adds notes, follows the status
+          </li>
+          <li>
+            <strong>Approver</strong> — reviews what comes in, approves or
+            rejects, leaves notes
+          </li>
+          <li>
+            <strong>HR</strong> — sees everything: bulk actions like
+            company-wide closures, and stepping in when an approver is away
+          </li>
+        </ul>
+
+        <div class="image-placeholder">
+          <p>
+            A simple diagram showing the three roles and how a request moves
+            between them.
+          </p>
+        </div>
+
+        <h2>What the scope became</h2>
+        <p>
+          The brief grew one request at a time, and every new piece had to fit a
+          system that wasn't built for it in the first place:
+        </p>
+        <ul>
+          <li><strong>Leave balance</strong> shown right inside the request flow</li>
+          <li><strong>Notes</strong> on both the requester and the approver side</li>
+          <li>
+            <strong>Time and date rules</strong> — minimum and maximum days per
+            request, advance-notice windows, deadlines, and combinations of all
+            of these
+          </li>
+          <li><strong>Blocked dates</strong> for periods when nobody can request</li>
+          <li>
+            <strong>Request history</strong> split into active, approved,
+            expired (the approver never got to it in time), and past
+          </li>
+        </ul>
+        <p>And all of it had to work on both web and mobile.</p>
+
+        <div class="image-placeholder">
+          <p>
+            Before/after or a set of wireframes showing how a rule like "advance
+            notice" surfaces in the UI.
+          </p>
+        </div>
+
+        <h2>How I worked</h2>
+        <p>
+          I started with research. I went through every competitor in our sector
+          and every dedicated workforce-management tool I could get my hands on,
+          to see what patterns people already knew and expected.
+        </p>
+        <p>
+          From there I built wireframes and mapped the logic of each flow, role
+          by role, decision point by decision point. Then came the iterations —
+          a lot of them. Reviews, checks, tests, repeat.
+        </p>
+        <p>
+          For mobile I went further: I designed four versions of the same core
+          interaction and ran internal usability tests with Maze to see which
+          one held up.
+        </p>
+
+        <div class="image-placeholder">
+          <p>
+            The four mobile variations of the core interaction, shown side by
+            side.
+          </p>
+        </div>
+
+        <h2>The real challenge: designing inside the constraints</h2>
+        <p>
+          Here's where it got interesting. A lot of what I designed couldn't be
+          built the way I'd drawn it. The third-party tools didn't allow certain
+          interactions, and some limits went all the way down to the CSS.
+        </p>
+        <p>
+          The hard problem was never the happy path. It was fitting new
+          requirements onto a system that was never meant to carry them, and
+          keeping the experience coherent for three different roles while I did
+          it.
+        </p>
+
+        <h2>Outcome</h2>
+        <p>
+          The flows work, and they shipped on web and mobile. The result was
+          uneven, and honestly it had to be — every decision was a trade between
+          the experience I wanted and what the underlying tools would let me
+          have.
+        </p>
+        <p>
+          What I took from it: designing under enterprise constraints is its own
+          skill. The win wasn't a perfect mockup. It was finding the version
+          that was both usable and buildable, and knowing which compromises were
+          safe to make and which ones would hurt the person on the other side of
+          the screen.
+        </p>
+      </article>
+
+      <section class="next-project">
+        <a href="case-ux-writing.html" class="next-project-link">
+          <span class="next-label">Next project</span>
+          <span class="next-title">A UX Writing System from Scratch</span>
+        </a>
+        <a href="index.html#work" class="back-link">← Back to all work</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Matteo Muscas</p>
+    </footer>
+  </body>
+</html>

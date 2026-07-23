@@ -9,11 +9,17 @@ function createProjectCard(project) {
   const card = document.createElement("div");
   card.className = "project-card";
 
-  // If there's a link, make the card clickable
+  // If there's a link, make the card clickable.
+  // external: true opens in a new tab (attachments / off-site); internal pages
+  // open in the same tab.
   if (project.link && project.link !== "#") {
     card.style.cursor = "pointer";
     card.addEventListener("click", () => {
-      window.open(project.link, "_blank");
+      if (project.external) {
+        window.open(project.link, "_blank");
+      } else {
+        window.location.href = project.link;
+      }
     });
   }
 

@@ -3,6 +3,12 @@ _site/
 .bundle/
 Gemfile.lock
 
+# Editor / IDE
+.vscode/
+
+# Personal / non-site content
+dnd/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

@@ -32,11 +32,11 @@ export const projects = [
     link: "./supaboy-burgers.html",
   },
   {
-    title: "Everything About Garamond",
-    category: "Editorial · Typography",
+    title: "Writing & Zines",
+    category: "Editorial · Fiction · Poetry",
     description:
-      "A short zine exploring the history and anatomy of one of the most enduring typefaces in print.",
+      "Things I make outside client work — a typography zine, short stories, poetry collections, and a few experiments.",
     image: "",
-    link: "./assets/everything_about_garamond.pdf",
+    link: "./writing.html",
   },
 ];

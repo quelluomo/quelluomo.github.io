@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Writing & Zines | Matteo Muscas</title>
+    <meta
+      name="description"
+      content="Zines and writing by Matteo Muscas, made outside client work."
+    />
+
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+
+    <script type="module" defer src="js/writing-page.js"></script>
+    <script type="module" defer src="js/theme.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <a href="index.html" class="logo-link">Matteo Muscas</a>
+        <div class="nav-links">
+          <a href="index.html#work" class="nav-link">Work</a>
+          <a href="index.html#about" class="nav-link">About</a>
+          <a href="index.html#contact" class="nav-link">Contact</a>
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="hero-eyebrow">Writing &amp; Zines</p>
+        <h1 class="hero-title">Things I make outside client work.</h1>
+        <p class="hero-subtitle">
+          Short stories, poetry, a typography zine, and the odd experiment.
+          Personal projects, made because I wanted to.
+        </p>
+      </section>
+
+      <section class="work-section">
+        <div class="section-head">
+          <h2 class="section-title">Start here</h2>
+          <p class="section-lead">A few pieces I'd point you to first.</p>
+        </div>
+        <div class="projects-grid" id="featured-grid">
+          <!-- Injected by writing-page.js -->
+        </div>
+      </section>
+
+      <section class="work-section">
+        <div class="section-head">
+          <h2 class="section-title">More writing</h2>
+        </div>
+        <div class="projects-grid" id="others-grid">
+          <!-- Injected by writing-page.js -->
+        </div>
+        <a href="index.html#work" class="back-link">← Back to all work</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Matteo Muscas</p>
+    </footer>
+  </body>
+</html>

@@ -186,6 +186,19 @@ section {
   color: var(--text-secondary);
 }
 
+.back-link {
+  display: inline-block;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
 /* ---------- About ---------- */
 .about-section {
   max-width: 760px;

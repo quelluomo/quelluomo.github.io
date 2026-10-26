@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Visual System for Architecture Diagrams | Matteo Muscas</title>
+
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/case-study.css" />
+
+    <script type="module" defer src="js/theme.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <a href="index.html" class="logo-link">Matteo Muscas</a>
+        <div class="nav-links">
+          <a href="index.html#work" class="nav-link">Work</a>
+          <a href="index.html#about" class="nav-link">About</a>
+          <a href="index.html#contact" class="nav-link">Contact</a>
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            <span class="theme-icon">🌙</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="case-hero">
+        <p class="case-eyebrow">Technical Documentation · Visual Systems</p>
+        <h1 class="case-title">A Visual System for Architecture Diagrams</h1>
+      </section>
+
+      <section class="case-metadata">
+        <div class="metadata-grid">
+          <div class="metadata-item">
+            <h3>Role</h3>
+            <p>Technical Documentation Designer</p>
+          </div>
+          <div class="metadata-item">
+            <h3>Tool</h3>
+            <p>Figma component library</p>
+          </div>
+          <div class="metadata-item">
+            <h3>Audience</h3>
+            <p>Developers, product, technical partners</p>
+          </div>
+          <div class="metadata-item">
+            <h3>Deliverable</h3>
+            <p>Cards, containers, connectors, templates</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="case-note">
+        <p>
+          This is internal work for an enterprise platform. The diagrams shown
+          here are the real components with anonymised content — product names,
+          service names and third-party integrations have been replaced with
+          colour names and numbers. The structure and the system are what matter.
+        </p>
+      </div>
+
+      <article class="case-body">
+        <figure class="case-figure case-figure--wide">
+          <a href="assets/case-architecture/detail.png" target="_blank" rel="noopener">
+          <img
+            src="assets/case-architecture/detail.png"
+            alt="A detailed architecture diagram built from the system: colour-coded layers, nested groups, colour-coded connectors and a legend block."
+            width="2400"
+            height="1795"
+          />
+          </a>
+          <figcaption>
+            The detailed example diagram: layers, groups, connectors and the
+            legend that explains them.
+          </figcaption>
+        </figure>
+
+        <h2>The problem</h2>
+        <p>
+          Architecture diagrams are some of the most-read pages in technical
+          documentation, and they were the least consistent. Each one had been
+          drawn by whoever needed it at the time, in whatever tool was open.
+          Boxes changed shape and colour from one diagram to the next, the same
+          service looked different on two pages, and nothing told you whether an
+          arrow meant an API call, a database access or a media stream.
+        </p>
+        <p>
+          The result: a reader had to relearn the visual language every time
+          they opened a diagram. And when the architecture changed, nobody could
+          update the drawings quickly, so they drifted out of date.
+        </p>
+
+        <h2>What I set out to do</h2>
+        <p>
+          Treat the diagrams like any other piece of documentation: give them a
+          style guide and a set of reusable parts, so that anyone could draw a
+          new one that looked like it belonged with the others — and could
+          update an existing one in minutes.
+        </p>
+        <p>
+          I built it as a small Figma library with three kinds of components:
+          cards, containers and connectors, plus the templates that go around
+          them.
+        </p>
+
+        <h2>The card</h2>
+        <p>
+          The card is the smallest unit — one service, one module, one external
+          system. It has a fixed anatomy: an icon in a 40 × 40 container, a
+          title in Inter Semi Bold, an optional subtitle in Inter Light, 16px
+          padding, 12px corner radius. The text is deliberately small so that a
+          diagram with twenty cards still fits on a page.
+        </p>
+        <p>
+          Every card comes in one of nine colour variants, one per layer of the
+          architecture. In the real system the colours map to roles — the
+          channels that bring traffic in, the business logic, the data stores,
+          the cross-cutting security layer, the external services. Here they are
+          just labelled by colour, but the point is the same: the moment you see
+          a pink card you know what kind of thing it is, before you read it.
+        </p>
+
+        <figure class="case-figure case-figure--wide">
+          <a href="assets/case-architecture/card-anatomy.png" target="_blank" rel="noopener">
+          <img
+            src="assets/case-architecture/card-anatomy.png"
+            alt="Card anatomy board: numbered callouts for the card parts, layout and spacing rules, and the nine colour variants with their colour tokens."
+            width="2400"
+            height="1055"
+            loading="lazy"
+          />
+          </a>
+          <figcaption>
+            Card anatomy: measurements, spacing rules and the nine colour
+            variants with their tokens.
+          </figcaption>
+        </figure>
+
+        <h2>The container</h2>
+        <p>
+          Containers group cards into layers. Each has a title in Montserrat
+          Bold, a 4px border in the layer colour and a tinted background, so
+          that even a large diagram reads as a handful of coloured bands before
+          you get into the detail.
+        </p>
+        <p>
+          Two details took the most iteration. First, an
+          <strong>Inner</strong> variant with a white background, for when a
+          container sits inside another one — nested tinted backgrounds got
+          muddy fast. Second, a <strong>spacer</strong> card with no visible
+          content, which keeps rows aligned when one layer has fewer items than
+          the one above it.
+        </p>
+
+        <figure class="case-figure case-figure--wide">
+          <a href="assets/case-architecture/container-anatomy.png" target="_blank" rel="noopener">
+          <img
+            src="assets/case-architecture/container-anatomy.png"
+            alt="Container anatomy board: outer and inner container variants for every layer colour, with type and spacing specifications."
+            width="2400"
+            height="646"
+            loading="lazy"
+          />
+          </a>
+          <figcaption>
+            Container anatomy: outer and inner variants for every layer colour.
+          </figcaption>
+        </figure>
+
+        <h2>Connectors and legends</h2>
+        <p>
+          Arrows carry meaning too, so they got the same treatment. Each kind of
+          connection has its own colour and stroke — eight in total, plus a
+          one-way and a two-way arrowhead. Every diagram ships with a legend
+          block that lists the connector styles and the layer colours actually
+          used, so no diagram depends on the reader remembering the rules.
+        </p>
+        <p>
+          The usage examples in the library show the three layouts that cover
+          almost every case: a single layer with nested groups, several layers
+          stacked, and mixed layers side by side.
+        </p>
+
+        <figure class="case-figure case-figure--wide">
+          <a href="assets/case-architecture/templates.png" target="_blank" rel="noopener">
+          <img
+            src="assets/case-architecture/templates.png"
+            alt="Templates board: legend blocks for layers and connectors in three sizes, the connector styles and directions, and usage examples."
+            width="2400"
+            height="562"
+            loading="lazy"
+          />
+          </a>
+          <figcaption>
+            Templates: legend blocks for layers and connectors, and the usage
+            examples.
+          </figcaption>
+        </figure>
+
+        <h2>The components in Figma</h2>
+        <p>
+          Everything is built as variants of two component sets — a card set
+          with a type property for the colour and a toggle for the subtitle, and
+          a container set with the same type property plus the Inner switch.
+          Swapping a card from one layer to another is one dropdown, and the
+          icon, text colours and background follow.
+        </p>
+
+        <figure class="case-figure case-figure--narrow">
+          <a href="assets/case-architecture/components.png" target="_blank" rel="noopener">
+          <img
+            src="assets/case-architecture/components.png"
+            alt="The two Figma component sets: twenty container variants in two columns and ten card variants in a third column."
+            width="2020"
+            height="2350"
+            loading="lazy"
+          />
+          </a>
+          <figcaption>The full component grid: both sets, every variant.</figcaption>
+        </figure>
+
+        <h2>Two diagrams, one language</h2>
+        <p>
+          The library ships with two example diagrams drawn entirely from these
+          parts. The high-level one is the overview you would put at the top of
+          a product page: layers, the main modules in each, and the external
+          systems they talk to. The detailed one zooms into a single flow and
+          shows how groups nest inside layers and how the connector colours
+          tell different kinds of traffic apart.
+        </p>
+        <p>
+          Put side by side, they are clearly the same system at two zoom levels
+          — which is exactly what the earlier diagrams were not.
+        </p>
+
+        <figure class="case-figure case-figure--wide">
+          <a href="assets/case-architecture/high-level.png" target="_blank" rel="noopener">
+          <img
+            src="assets/case-architecture/high-level.png"
+            alt="The high-level example diagram: external groups on the left, the application with its coloured layers in the centre, and labelled connectors between them."
+            width="2400"
+            height="906"
+            loading="lazy"
+          />
+          </a>
+          <figcaption>The high-level example diagram.</figcaption>
+        </figure>
+
+        <h2>What changed</h2>
+        <p>
+          New diagrams now take a fraction of the time, because the thinking
+          about shapes, colours and type has already been done. They are
+          consistent with each other, so a reader who learns the language once
+          can read all of them. And because they are made of components,
+          updating the architecture means editing a diagram, not redrawing it.
+        </p>
+        <p>
+          The part I am most pleased with is the one nobody notices: the
+          diagrams stopped being a thing people avoided making.
+        </p>
+      </article>
+
+      <section class="next-project">
+        <a href="supaboy-burgers.html" class="next-project-link">
+          <span class="next-label">Next project</span>
+          <span class="next-title">SupaBoy Burgers</span>
+        </a>
+        <a href="index.html#work" class="back-link">← Back to all work</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Matteo Muscas</p>
+    </footer>
+  </body>
+</html>

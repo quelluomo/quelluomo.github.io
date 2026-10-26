@@ -24,6 +24,14 @@ export const projects = [
     link: "./case-technical-documentation.html",
   },
   {
+    title: "A Visual System for Architecture Diagrams",
+    category: "Technical Documentation · Visual Systems",
+    description:
+      "A Figma library of cards, containers and connectors so that every architecture diagram in the docs speaks the same visual language — and can be updated in minutes.",
+    image: "./assets/covers/architecture-diagrams.png",
+    link: "./case-architecture-diagrams.html",
+  },
+  {
     title: "SupaBoy Burgers",
     category: "UX/UI Design",
     description:

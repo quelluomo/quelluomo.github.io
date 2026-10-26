@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Inter, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#1f5d4c"/>
+    </marker>
+    <marker id="arrow-muted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#6b756d"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f5f3ec"/>
+
+  <!-- heading -->
+  <text x="80" y="104" font-size="15" font-weight="600" letter-spacing="2.2" fill="#1f5d4c">TECHNICAL DOCUMENTATION · HOW CONTENT MOVES</text>
+  <text x="80" y="160" font-family="Fraunces, Georgia, serif" font-size="40" font-weight="600" fill="#1c2620" letter-spacing="-0.5">From the people who built it to the people who read it</text>
+
+  <!-- connectors (row 1) -->
+  <g stroke="#1f5d4c" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <line x1="337" y1="430" x2="462" y2="430"/>
+    <line x1="737" y1="430" x2="862" y2="430"/>
+    <line x1="1137" y1="430" x2="1262" y2="430"/>
+  </g>
+  <g font-size="15" font-weight="600" letter-spacing="1.6" fill="#1f5d4c" text-anchor="middle">
+    <text x="400" y="412">I ASK</text>
+    <text x="800" y="412">I SUBMIT</text>
+    <text x="1200" y="412">SHIPS</text>
+  </g>
+
+  <!-- feedback loop: Product -> Me -->
+  <path d="M 1000 545 L 1000 620 Q 1000 640 980 640 L 620 640 Q 600 640 600 620 L 600 552" stroke="#6b756d" stroke-width="3" fill="none" stroke-dasharray="9 8" marker-end="url(#arrow-muted)"/>
+  <rect x="690" y="622" width="220" height="36" rx="18" fill="#f5f3ec"/>
+  <text x="800" y="646" font-size="15" font-weight="600" letter-spacing="1.6" fill="#6b756d" text-anchor="middle">CORRECTIONS</text>
+
+  <!-- node 1: Developers -->
+  <g>
+    <rect x="65" y="315" width="270" height="230" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+    <text x="95" y="358" font-size="13" font-weight="600" letter-spacing="1.8" fill="#6b756d">SOURCE</text>
+    <text x="95" y="398" font-size="27" font-weight="600" fill="#1c2620">Developers</text>
+    <text font-size="17" fill="#3d4a42">
+      <tspan x="95" y="442">How a feature works,</tspan>
+      <tspan x="95" dy="26">the edge cases, what a</tspan>
+      <tspan x="95" dy="26">component's props do</tspan>
+    </text>
+  </g>
+
+  <!-- node 2: Me (emphasised) -->
+  <g>
+    <rect x="465" y="315" width="270" height="230" rx="16" fill="#1f5d4c"/>
+    <text x="495" y="358" font-size="13" font-weight="600" letter-spacing="1.8" fill="#9fd1bd">DRAFTING</text>
+    <text x="495" y="398" font-size="27" font-weight="600" fill="#ffffff">Me</text>
+    <text font-size="17" fill="#dcebe3">
+      <tspan x="495" y="442">Tutorials, technical</tspan>
+      <tspan x="495" dy="26">guides, references,</tspan>
+      <tspan x="495" dy="26">release notes</tspan>
+    </text>
+  </g>
+
+  <!-- node 3: Product -->
+  <g>
+    <rect x="865" y="315" width="270" height="230" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+    <text x="895" y="358" font-size="13" font-weight="600" letter-spacing="1.8" fill="#6b756d">VALIDATION</text>
+    <text x="895" y="398" font-size="27" font-weight="600" fill="#1c2620">Product</text>
+    <text font-size="17" fill="#3d4a42">
+      <tspan x="895" y="442">Fact-check: is what the</tspan>
+      <tspan x="895" dy="26">page says actually</tspan>
+      <tspan x="895" dy="26">true?</tspan>
+    </text>
+  </g>
+
+  <!-- node 4: Published -->
+  <g>
+    <rect x="1265" y="315" width="270" height="230" rx="16" fill="#ece8dd" stroke="#d6d0bf" stroke-width="2"/>
+    <text x="1295" y="358" font-size="13" font-weight="600" letter-spacing="1.8" fill="#6b756d">OUTPUT</text>
+    <text x="1295" y="398" font-size="27" font-weight="600" fill="#1c2620">Published</text>
+    <text font-size="17" fill="#3d4a42">
+      <tspan x="1295" y="442">One docs site, one</tspan>
+      <tspan x="1295" dy="26">voice, read by developers</tspan>
+      <tspan x="1295" dy="26">and specialists</tspan>
+    </text>
+  </g>
+
+  <!-- footer -->
+  <text x="80" y="760" font-size="18" fill="#6b756d">One person is accountable for the whole chain, so nothing ships without a fact-check and everything reads like it came from the same place.</text>
+</svg>

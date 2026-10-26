@@ -8,7 +8,7 @@
 
 > Note: this is a personal project from a UX design course. It never shipped to real customers — I'm upfront about that. The thinking behind it is what I want to show.
 
-`[IMAGE PLACEHOLDER — Hero: a few high-fidelity screens of the app (menu, order, tracker) on a phone mockup.]`
+`[IMAGE — Hero: isometric composition of the final screens (assets/case-supaboy/hero.jpg).]`
 
 ---
 
@@ -24,7 +24,7 @@ I started by talking to customers, then turned what I heard into personas and em
 
 Elodie made something clear. The language barrier wasn't a minor annoyance — it was causing real miscommunication and wrong orders. Fix that, and you don't just help one person; you open the truck up to a whole group of customers it was quietly turning away.
 
-`[IMAGE PLACEHOLDER — User personas: Elodie and the other key archetypes.]`
+`[IMAGE — Persona card: Elodie Thorpe (assets/case-supaboy/persona-elodie.jpg). Only one persona exists in the project.]`
 
 ## The problems worth solving
 
@@ -37,7 +37,7 @@ Four pain points kept surfacing:
 
 The target was simple to say and harder to do: cut the counter interactions without making the service feel worse.
 
-`[IMAGE PLACEHOLDER — User journey map, from spotting the truck to collecting the order.]`
+`[IMAGE — Elodie’s user journey map (assets/case-supaboy/journey-map.png).]`
 
 ## How I worked
 
@@ -45,11 +45,11 @@ I started on paper. Sketching the ordering and tracking flow by hand is cheap to
 
 When I moved to digital wireframes, the rule was to keep the two things people actually came for — order, track — front and centre, and push everything else down into a quieter hierarchy so the home screen didn't shout at anyone. Multilingual support and accessibility weren't a feature I added at the end; they were the starting point, because Elodie was the starting point.
 
-`[IMAGE PLACEHOLDER — Wireframe progression, from paper sketches to digital.]`
+`[IMAGE — Paper sketches photo (assets/case-supaboy/paper-wireframes.jpg), then digital wireframes, April 2023 update (assets/case-supaboy/wireframes.png).]`
 
 Then I tested. Two rounds of usability studies, each with people placing an order and following it through to pickup. The tracker was the weak spot — it was doing too much, and the status wasn't always clear. That fed straight back into the design: fewer moving parts, clearer updates, an obvious read on where your food was.
 
-`[IMAGE PLACEHOLDER — High-fidelity mockups of the key screens.]`
+`[IMAGE — High-fidelity screens V2 (assets/case-supaboy/hifi-mockups.jpg) + mini library: type, colours, icons, components (assets/case-supaboy/library.png).]`
 
 ## What I took from it
 

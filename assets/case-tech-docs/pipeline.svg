@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Inter, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#1f5d4c"/>
+    </marker>
+    <marker id="arrow-muted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#6b756d"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f5f3ec"/>
+
+  <text x="80" y="104" font-size="15" font-weight="600" letter-spacing="2.2" fill="#1f5d4c">TECHNICAL DOCUMENTATION · PIPELINE</text>
+  <text x="80" y="160" font-family="Fraunces, Georgia, serif" font-size="40" font-weight="600" fill="#1c2620" letter-spacing="-0.5">Five steps from a line in a spreadsheet to a published page</text>
+
+  <!-- arrows between steps -->
+  <g stroke="#1f5d4c" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <line x1="302" y1="470" x2="358" y2="470"/>
+    <line x1="612" y1="470" x2="668" y2="470"/>
+    <line x1="922" y1="470" x2="978" y2="470"/>
+    <line x1="1232" y1="470" x2="1288" y2="470"/>
+  </g>
+
+  <!-- return loop: Validation -> Draft -->
+  <path d="M 1105 600 L 1105 665 Q 1105 685 1085 685 L 815 685 Q 795 685 795 665 L 795 607" stroke="#6b756d" stroke-width="3" fill="none" stroke-dasharray="9 8" marker-end="url(#arrow-muted)"/>
+  <rect x="860" y="667" width="180" height="36" rx="18" fill="#f5f3ec"/>
+  <text x="950" y="691" font-size="15" font-weight="600" letter-spacing="1.6" fill="#6b756d" text-anchor="middle">NEEDS CHANGES</text>
+
+  <!-- step 1 -->
+  <g>
+    <rect x="60" y="340" width="240" height="260" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+    <circle cx="104" cy="386" r="22" fill="#1f5d4c"/>
+    <text x="104" y="394" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="88" y="450" font-size="25" font-weight="600" fill="#1c2620">Backlog</text>
+    <text font-size="16" fill="#3d4a42">
+      <tspan x="88" y="488">Often an Excel sheet:</tspan>
+      <tspan x="88" dy="24">the list of features</tspan>
+      <tspan x="88" dy="24">still to cover</tspan>
+    </text>
+  </g>
+
+  <!-- step 2 -->
+  <g>
+    <rect x="370" y="340" width="240" height="260" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+    <circle cx="414" cy="386" r="22" fill="#1f5d4c"/>
+    <text x="414" y="394" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="398" y="450" font-size="25" font-weight="600" fill="#1c2620">Key points</text>
+    <text font-size="16" fill="#3d4a42">
+      <tspan x="398" y="488">The essential facts and</tspan>
+      <tspan x="398" dy="24">behaviours, gathered</tspan>
+      <tspan x="398" dy="24">from the people who</tspan>
+      <tspan x="398" dy="24">built it</tspan>
+    </text>
+  </g>
+
+  <!-- step 3 (emphasised: my work) -->
+  <g>
+    <rect x="680" y="340" width="240" height="260" rx="16" fill="#1f5d4c"/>
+    <circle cx="724" cy="386" r="22" fill="#ffffff"/>
+    <text x="724" y="394" font-size="20" font-weight="700" fill="#1f5d4c" text-anchor="middle">3</text>
+    <text x="708" y="450" font-size="25" font-weight="600" fill="#ffffff">Draft</text>
+    <text font-size="16" fill="#dcebe3">
+      <tspan x="708" y="488">Written to one style,</tspan>
+      <tspan x="708" dy="24">for the right level of</tspan>
+      <tspan x="708" dy="24">technical reader</tspan>
+    </text>
+  </g>
+
+  <!-- step 4 -->
+  <g>
+    <rect x="990" y="340" width="240" height="260" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+    <circle cx="1034" cy="386" r="22" fill="#1f5d4c"/>
+    <text x="1034" y="394" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="1018" y="450" font-size="25" font-weight="600" fill="#1c2620">Validation</text>
+    <text font-size="16" fill="#3d4a42">
+      <tspan x="1018" y="488">Product checks it for</tspan>
+      <tspan x="1018" dy="24">accuracy. Anything</tspan>
+      <tspan x="1018" dy="24">wrong goes back to</tspan>
+      <tspan x="1018" dy="24">the draft</tspan>
+    </text>
+  </g>
+
+  <!-- step 5 -->
+  <g>
+    <rect x="1300" y="340" width="240" height="260" rx="16" fill="#ece8dd" stroke="#d6d0bf" stroke-width="2"/>
+    <circle cx="1344" cy="386" r="22" fill="#1f5d4c"/>
+    <text x="1344" y="394" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+    <text x="1328" y="450" font-size="25" font-weight="600" fill="#1c2620">Publish</text>
+    <text font-size="16" fill="#3d4a42">
+      <tspan x="1328" y="488">Live on the docs site.</tspan>
+      <tspan x="1328" dy="24">The backlog row is</tspan>
+      <tspan x="1328" dy="24">closed</tspan>
+    </text>
+  </g>
+
+  <!-- status strip -->
+  <text x="80" y="775" font-size="13" font-weight="600" letter-spacing="1.8" fill="#6b756d">WHY A DEFINED PROCESS</text>
+  <text x="80" y="808" font-size="18" fill="#3d4a42">Anyone can see where a piece of content is, and nothing gets published without a fact-check.</text>
+</svg>

@@ -23,7 +23,7 @@ My job was to make the documentation someone's actual job — mine. I got famili
 
 But the writing is only half of it. The real work is upstream. I chase the developers and get out of them everything a reader needs to know: how a feature works, what the edge cases are, what a component's props do. Then I turn that into a tutorial, a technical guide, or a manual, get it validated by Product, and publish.
 
-`[IMAGE PLACEHOLDER — A simple flow diagram: developers → me (drafting) → Product (validation) → published. Shows my role as the connective tissue.]`
+`[IMAGE — Flow diagram, SVG source: assets/case-tech-docs/flow.svg, rendered to flow.png]`
 
 ## How the process works
 
@@ -37,7 +37,7 @@ Content doesn't go from zero to published in one step. It moves through iteratio
 
 The value of a defined process is that anyone can see where a piece of content is, and nothing gets published without a fact-check.
 
-`[IMAGE PLACEHOLDER — The Excel-to-published pipeline, or a before/after of a page that went from inconsistent to structured.]`
+`[IMAGE — Pipeline diagram, SVG source: assets/case-tech-docs/pipeline.svg, rendered to pipeline.png]`
 
 ## Writing for a technical audience
 

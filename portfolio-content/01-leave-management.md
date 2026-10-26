@@ -25,7 +25,7 @@ I mapped three people, each with their own flow and their own level of control:
 - **Approver** — reviews what comes in, approves or rejects, leaves notes
 - **HR** — sees everything: bulk actions like company-wide closures, and stepping in when an approver is away
 
-`[IMAGE PLACEHOLDER — A simple diagram showing the three roles and how a request moves between them.]`
+`[IMAGE — Three-roles swimlane diagram, SVG source: assets/case-leave/roles.svg, rendered to roles.png]`
 
 ## What the scope became
 

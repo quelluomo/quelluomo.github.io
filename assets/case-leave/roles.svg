@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Inter, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#1f5d4c"/>
+    </marker>
+    <marker id="arrow-muted" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#6b756d"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f5f3ec"/>
+
+  <text x="80" y="92" font-size="15" font-weight="600" letter-spacing="2.2" fill="#1f5d4c">LEAVE &amp; TIME-OFF MANAGEMENT · THREE ROLES</text>
+  <text x="80" y="146" font-family="Fraunces, Georgia, serif" font-size="40" font-weight="600" fill="#1c2620" letter-spacing="-0.5">How a request moves between the people involved</text>
+
+  <!-- swimlanes -->
+  <g>
+    <rect x="80" y="200" width="460" height="620" rx="20" fill="#ece8dd"/>
+    <rect x="570" y="200" width="460" height="620" rx="20" fill="#ece8dd"/>
+    <rect x="1060" y="200" width="460" height="620" rx="20" fill="#ece8dd"/>
+  </g>
+
+  <!-- lane headers -->
+  <g>
+    <text x="112" y="248" font-size="13" font-weight="600" letter-spacing="1.8" fill="#6b756d">ROLE 1</text>
+    <text x="112" y="286" font-size="28" font-weight="600" fill="#1c2620">Requester</text>
+    <text x="112" y="316" font-size="16" fill="#3d4a42">Any employee asking for time off</text>
+
+    <text x="602" y="248" font-size="13" font-weight="600" letter-spacing="1.8" fill="#6b756d">ROLE 2</text>
+    <text x="602" y="286" font-size="28" font-weight="600" fill="#1c2620">Approver</text>
+    <text x="602" y="316" font-size="16" fill="#3d4a42">The manager who says yes or no</text>
+
+    <text x="1092" y="248" font-size="13" font-weight="600" letter-spacing="1.8" fill="#6b756d">ROLE 3</text>
+    <text x="1092" y="286" font-size="28" font-weight="600" fill="#1c2620">HR</text>
+    <text x="1092" y="316" font-size="16" fill="#3d4a42">Keeps records and balances right</text>
+  </g>
+  <g stroke="#d6d0bf" stroke-width="2">
+    <line x1="112" y1="344" x2="508" y2="344"/>
+    <line x1="602" y1="344" x2="998" y2="344"/>
+    <line x1="1092" y1="344" x2="1488" y2="344"/>
+  </g>
+
+  <!-- row 1: happy path -->
+  <g stroke="#1f5d4c" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <line x1="480" y1="455" x2="598" y2="455"/>
+    <line x1="970" y1="455" x2="1088" y2="455"/>
+  </g>
+  <rect x="987" y="402" width="88" height="30" rx="15" fill="#1f5d4c"/>
+  <text x="1031" y="423" font-size="13" font-weight="600" letter-spacing="1.4" fill="#ffffff" text-anchor="middle">APPROVED</text>
+
+  <!-- step: submits -->
+  <g>
+    <rect x="112" y="390" width="368" height="130" rx="14" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+    <text x="140" y="432" font-size="22" font-weight="600" fill="#1c2620">Submits a request</text>
+    <text font-size="16" fill="#3d4a42">
+      <tspan x="140" y="464">Dates, type of leave, a note.</tspan>
+      <tspan x="140" dy="24">Rules are checked before it is sent.</tspan>
+    </text>
+  </g>
+
+  <!-- step: reviews -->
+  <g>
+    <rect x="602" y="390" width="368" height="130" rx="14" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+    <text x="630" y="432" font-size="22" font-weight="600" fill="#1c2620">Reviews it</text>
+    <text font-size="16" fill="#3d4a42">
+      <tspan x="630" y="464">Sees who else is off, the remaining</tspan>
+      <tspan x="630" dy="24">balance, and decides.</tspan>
+    </text>
+  </g>
+
+  <!-- step: records -->
+  <g>
+    <rect x="1092" y="390" width="368" height="130" rx="14" fill="#1f5d4c"/>
+    <text x="1120" y="432" font-size="22" font-weight="600" fill="#ffffff">Records it</text>
+    <text font-size="16" fill="#dcebe3">
+      <tspan x="1120" y="464">Updates the balance and the</tspan>
+      <tspan x="1120" dy="24">team calendar. Single source of truth.</tspan>
+    </text>
+  </g>
+
+  <!-- row 2: declined path -->
+  <path d="M 786 520 L 786 600" stroke="#6b756d" stroke-width="3" fill="none" stroke-dasharray="9 8" marker-end="url(#arrow-muted)"/>
+  <rect x="800" y="542" width="92" height="30" rx="15" fill="#f5f3ec" stroke="#d6d0bf" stroke-width="1.5"/>
+  <text x="846" y="563" font-size="13" font-weight="600" letter-spacing="1.4" fill="#6b756d" text-anchor="middle">DECLINED</text>
+
+  <line x1="602" y1="670" x2="492" y2="670" stroke="#6b756d" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#arrow-muted)"/>
+
+  <g>
+    <rect x="602" y="605" width="368" height="130" rx="14" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+    <text x="630" y="647" font-size="22" font-weight="600" fill="#1c2620">Declines with a reason</text>
+    <text font-size="16" fill="#3d4a42">
+      <tspan x="630" y="679">Not a dead end: the reason tells the</tspan>
+      <tspan x="630" dy="24">requester what to change.</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect x="112" y="605" width="368" height="130" rx="14" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+    <text x="140" y="647" font-size="22" font-weight="600" fill="#1c2620">Adjusts and resubmits</text>
+    <text font-size="16" fill="#3d4a42">
+      <tspan x="140" y="679">Gets notified, edits the dates or the</tspan>
+      <tspan x="140" dy="24">type, and sends it again.</tspan>
+    </text>
+  </g>
+  <!-- resubmit loop back to submit -->
+  <path d="M 296 605 L 296 520" stroke="#6b756d" stroke-width="3" fill="none" stroke-dasharray="9 8" marker-end="url(#arrow-muted)"/>
+
+  <!-- HR lane note -->
+  <g>
+    <rect x="1092" y="605" width="368" height="130" rx="14" fill="#f5f3ec" stroke="#d6d0bf" stroke-width="2" stroke-dasharray="6 6"/>
+    <text x="1120" y="647" font-size="22" font-weight="600" fill="#1c2620">Sees everything</text>
+    <text font-size="16" fill="#3d4a42">
+      <tspan x="1120" y="679">Every request, every balance, every</tspan>
+      <tspan x="1120" dy="24">rule, for the whole organisation.</tspan>
+    </text>
+  </g>
+
+  <!-- footer -->
+  <text x="80" y="866" font-size="17" fill="#6b756d">Same request, three very different screens: each role only sees what it needs to act.</text>
+</svg>

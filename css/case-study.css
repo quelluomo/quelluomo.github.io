@@ -155,6 +155,43 @@ main {
   content: "🖼  ";
 }
 
+/* ---------- Figures ---------- */
+.case-figure {
+  margin: 2rem 0 2.5rem;
+}
+
+.case-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.case-figure--narrow img {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+/* Wide figures break out of the 720px prose column on large screens */
+.case-figure--wide {
+  width: calc(100% + 360px);
+  max-width: calc(100vw - 6rem);
+}
+
+.case-figure a {
+  display: block;
+}
+
+.case-figure figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-tertiary);
+  text-align: center;
+}
+
 /* ---------- Next project ---------- */
 .next-project {
   max-width: 720px;
@@ -208,6 +245,11 @@ main {
 @media (max-width: 900px) {
   main {
     padding: 0 2rem;
+  }
+
+  .case-figure--wide {
+    width: 100%;
+    max-width: 100%;
   }
 
   .metadata-grid {

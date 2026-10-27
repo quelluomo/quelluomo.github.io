@@ -7,7 +7,7 @@
 
 > Note: I did this for an enterprise CX platform. I've kept out real branding and product names. The examples here are true to the work but sanitised.
 
-`[IMAGE PLACEHOLDER — Hero: a spread of the writing guide (voice & tone scales) next to a couple of before/after copy examples. Neutral styling.]`
+`[IMAGE — Hero from Figma (Writing guide file, frame hero-ux-writing): assets/case-ux-writing/hero.png]`
 
 ---
 
@@ -21,6 +21,8 @@ The result was a product that spoke in a dozen slightly different voices. Text t
 
 I'd just finished a couple of UX writing courses, so I had the theory fresh. The first thing I did was write the thing that didn't exist: a voice and tone guide.
 
+`[IMAGE — Tone scales from the guide, SVG source: assets/case-ux-writing/tone-scales.svg]`
+
 The guide set a clear position — neutral but slightly casual in form, neutral but slightly enthusiastic in tone — and backed it with rules the whole team could actually use:
 
 - Plain language, with room for jargon only when the audience was technical
@@ -31,7 +33,7 @@ The guide set a clear position — neutral but slightly casual in form, neutral 
 
 Every rule came with a do / don't example, so it wasn't abstract. Someone writing an error message could open the guide and see exactly what "good" looked like.
 
-`[IMAGE PLACEHOLDER — A page from the guide showing the do/don't examples with the green-tick / red-cross format.]`
+`[IMAGE — Do and don't page, content from the guide anonymised, SVG source: assets/case-ux-writing/do-dont.svg]`
 
 ## The rewrite
 
@@ -47,7 +49,7 @@ With the guide in place, I went back through the existing copy. A few patterns k
 
 **Keeping both languages in sync.** I owned the English translation of every string, and my job wasn't just to translate — it was to make the English as clear and consistent as the Italian. Same voice, same rules, two languages. When a term got fixed in one, it got fixed in the other.
 
-`[IMAGE PLACEHOLDER — Before/after of an error message and an empty state, showing the structure applied.]`
+`[IMAGE — Error message and empty state before/after, SVG source: assets/case-ux-writing/before-after.svg]`
 
 ## What changed
 

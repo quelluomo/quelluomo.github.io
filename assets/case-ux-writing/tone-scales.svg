@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820" font-family="Inter, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="1600" height="820" fill="#f5f3ec"/>
+  <text x="80" y="92" font-size="15" font-weight="600" letter-spacing="2.2" fill="#1f5d4c">UX WRITING SYSTEM · VOICE AND TONE</text>
+  <text x="80" y="146" font-family="Fraunces, Georgia, serif" font-size="40" font-weight="600" fill="#1c2620" letter-spacing="-0.5">Where the voice sits, on six scales</text>
+  <text x="528" y="239" font-size="20" font-weight="400" fill="#6b756d" text-anchor="end">Personable and friendly</text>
+  <text x="1072" y="239" font-size="20" font-weight="600" fill="#1f5d4c">Corporate, professional</text>
+  <rect x="560" y="229" width="480" height="6" rx="3" fill="#ece8dd"/>
+  <circle cx="560" cy="232" r="5" fill="#d6d0bf"/>
+  <circle cx="656" cy="232" r="5" fill="#d6d0bf"/>
+  <circle cx="752" cy="232" r="5" fill="#d6d0bf"/>
+  <circle cx="848" cy="232" r="5" fill="#d6d0bf"/>
+  <circle cx="944" cy="232" r="5" fill="#d6d0bf"/>
+  <circle cx="1040" cy="232" r="5" fill="#d6d0bf"/>
+  <rect x="800" y="229" width="48" height="6" rx="3" fill="#1f5d4c"/>
+  <circle cx="848" cy="232" r="15" fill="#ffffff" stroke="#1f5d4c" stroke-width="5"/>
+  <text x="528" y="323" font-size="20" font-weight="400" fill="#6b756d" text-anchor="end">Spontaneous, high energy</text>
+  <text x="1072" y="323" font-size="20" font-weight="600" fill="#1f5d4c">Careful thinking, planning</text>
+  <rect x="560" y="313" width="480" height="6" rx="3" fill="#ece8dd"/>
+  <circle cx="560" cy="316" r="5" fill="#d6d0bf"/>
+  <circle cx="656" cy="316" r="5" fill="#d6d0bf"/>
+  <circle cx="752" cy="316" r="5" fill="#d6d0bf"/>
+  <circle cx="848" cy="316" r="5" fill="#d6d0bf"/>
+  <circle cx="944" cy="316" r="5" fill="#d6d0bf"/>
+  <circle cx="1040" cy="316" r="5" fill="#d6d0bf"/>
+  <rect x="800" y="313" width="144" height="6" rx="3" fill="#1f5d4c"/>
+  <circle cx="944" cy="316" r="15" fill="#ffffff" stroke="#1f5d4c" stroke-width="5"/>
+  <text x="528" y="407" font-size="20" font-weight="600" fill="#1f5d4c" text-anchor="end">Modern or hi-tech</text>
+  <text x="1072" y="407" font-size="20" font-weight="400" fill="#6b756d">Classic and traditional</text>
+  <rect x="560" y="397" width="480" height="6" rx="3" fill="#ece8dd"/>
+  <circle cx="560" cy="400" r="5" fill="#d6d0bf"/>
+  <circle cx="656" cy="400" r="5" fill="#d6d0bf"/>
+  <circle cx="752" cy="400" r="5" fill="#d6d0bf"/>
+  <circle cx="848" cy="400" r="5" fill="#d6d0bf"/>
+  <circle cx="944" cy="400" r="5" fill="#d6d0bf"/>
+  <circle cx="1040" cy="400" r="5" fill="#d6d0bf"/>
+  <rect x="752" y="397" width="48" height="6" rx="3" fill="#1f5d4c"/>
+  <circle cx="752" cy="400" r="15" fill="#ffffff" stroke="#1f5d4c" stroke-width="5"/>
+  <text x="528" y="491" font-size="20" font-weight="400" fill="#6b756d" text-anchor="end">Cutting edge</text>
+  <text x="1072" y="491" font-size="20" font-weight="600" fill="#1f5d4c">Established</text>
+  <rect x="560" y="481" width="480" height="6" rx="3" fill="#ece8dd"/>
+  <circle cx="560" cy="484" r="5" fill="#d6d0bf"/>
+  <circle cx="656" cy="484" r="5" fill="#d6d0bf"/>
+  <circle cx="752" cy="484" r="5" fill="#d6d0bf"/>
+  <circle cx="848" cy="484" r="5" fill="#d6d0bf"/>
+  <circle cx="944" cy="484" r="5" fill="#d6d0bf"/>
+  <circle cx="1040" cy="484" r="5" fill="#d6d0bf"/>
+  <rect x="800" y="481" width="48" height="6" rx="3" fill="#1f5d4c"/>
+  <circle cx="848" cy="484" r="15" fill="#ffffff" stroke="#1f5d4c" stroke-width="5"/>
+  <text x="528" y="575" font-size="20" font-weight="400" fill="#6b756d" text-anchor="end">Fun</text>
+  <text x="1072" y="575" font-size="20" font-weight="600" fill="#1f5d4c">Serious</text>
+  <rect x="560" y="565" width="480" height="6" rx="3" fill="#ece8dd"/>
+  <circle cx="560" cy="568" r="5" fill="#d6d0bf"/>
+  <circle cx="656" cy="568" r="5" fill="#d6d0bf"/>
+  <circle cx="752" cy="568" r="5" fill="#d6d0bf"/>
+  <circle cx="848" cy="568" r="5" fill="#d6d0bf"/>
+  <circle cx="944" cy="568" r="5" fill="#d6d0bf"/>
+  <circle cx="1040" cy="568" r="5" fill="#d6d0bf"/>
+  <rect x="800" y="565" width="144" height="6" rx="3" fill="#1f5d4c"/>
+  <circle cx="944" cy="568" r="15" fill="#ffffff" stroke="#1f5d4c" stroke-width="5"/>
+  <text x="528" y="659" font-size="20" font-weight="600" fill="#1f5d4c" text-anchor="end">Accessible to all</text>
+  <text x="1072" y="659" font-size="20" font-weight="400" fill="#6b756d">Upscale</text>
+  <rect x="560" y="649" width="480" height="6" rx="3" fill="#ece8dd"/>
+  <circle cx="560" cy="652" r="5" fill="#d6d0bf"/>
+  <circle cx="656" cy="652" r="5" fill="#d6d0bf"/>
+  <circle cx="752" cy="652" r="5" fill="#d6d0bf"/>
+  <circle cx="848" cy="652" r="5" fill="#d6d0bf"/>
+  <circle cx="944" cy="652" r="5" fill="#d6d0bf"/>
+  <circle cx="1040" cy="652" r="5" fill="#d6d0bf"/>
+  <rect x="752" y="649" width="48" height="6" rx="3" fill="#1f5d4c"/>
+  <circle cx="752" cy="652" r="15" fill="#ffffff" stroke="#1f5d4c" stroke-width="5"/>
+  <line x1="800" y1="200" x2="800" y2="686" stroke="#d6d0bf" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="800" y="716" font-size="13" font-weight="600" letter-spacing="1.8" fill="#6b756d" text-anchor="middle">NEUTRAL</text>
+  <text x="80" y="782" font-size="17" fill="#6b756d">A lean, not a rule: neutral at the core, slightly casual in form and slightly enthusiastic in tone. Writers adjust when the context asks for it.</text>
+</svg>

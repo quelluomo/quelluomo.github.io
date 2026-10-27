@@ -7,7 +7,7 @@
 
 > Note: I designed this internally for an enterprise workforce-management platform. I've left out names, branding, and real screens. The mockups here are generic recreations I made to show the flows and the thinking behind them.
 
-`[IMAGE PLACEHOLDER — Hero: a clean, generic mockup of the request flow on web + mobile side by side. Neutral colours, no real branding.]`
+`[IMAGE — Hero from Figma (Writing guide file, frame hero-leave-management): assets/case-leave/hero.png]`
 
 ---
 
@@ -39,7 +39,7 @@ The brief grew one request at a time, and every new piece had to fit a system th
 
 And all of it had to work on both web and mobile.
 
-`[IMAGE PLACEHOLDER — Before/after or a set of wireframes showing how a rule like "advance notice" surfaces in the UI.]`
+`[IMAGE — Anonymised mobile screens, normal / no balance / blocked date: assets/case-leave/rules-mobile.png]`
 
 ## How I worked
 
@@ -49,7 +49,7 @@ From there I built wireframes and mapped the logic of each flow, role by role, d
 
 For mobile I went further: I designed four versions of the same core interaction and ran internal usability tests with Maze to see which one held up.
 
-`[IMAGE PLACEHOLDER — The four mobile variations of the core interaction, shown side by side.]`
+`[IMAGE — Anonymised core mobile flow, four steps (the four tested variations no longer exist): assets/case-leave/mobile-flow.png]`
 
 ## The real challenge: designing inside the constraints
 

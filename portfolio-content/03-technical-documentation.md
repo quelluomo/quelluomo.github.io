@@ -7,7 +7,7 @@
 
 > Note: this is internal work for an enterprise platform. Product names and real screens are left out; the process described is accurate.
 
-`[IMAGE PLACEHOLDER — Hero: a clean, generic docs site layout (sidebar + article), Docusaurus-style, no real content.]`
+`[IMAGE — Hero from Figma (Writing guide file, frame hero-technical-documentation): assets/case-tech-docs/hero.png]`
 
 ---
 

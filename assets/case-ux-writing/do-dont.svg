@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="880" viewBox="0 0 1600 880" font-family="Inter, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="1600" height="880" fill="#f5f3ec"/>
+  <text x="80" y="92" font-size="15" font-weight="600" letter-spacing="2.2" fill="#1f5d4c">UX WRITING SYSTEM · FROM THE GUIDE</text>
+  <text x="80" y="146" font-family="Fraunces, Georgia, serif" font-size="40" font-weight="600" fill="#1c2620" letter-spacing="-0.5">Every rule comes with a do and a don’t</text>
+  <rect x="80" y="196" width="460" height="280" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+  <text x="108" y="244" font-size="23" font-weight="600" fill="#1c2620">Use simple language</text>
+  <text x="108" y="274" font-size="16" fill="#6b756d">Jargon only when the reader is technical.</text>
+  <line x1="108" y1="298" x2="512" y2="298" stroke="#ece8dd" stroke-width="2"/>
+  <circle cx="122" cy="330" r="14" fill="#1f7a3a"/><path d="M116 330 l4.5 4.5 l8 -9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-size="19" font-weight="500" fill="#1c2620"><tspan x="150" y="336">“Did you mean gmail.com?”</tspan></text>
+  <circle cx="122" cy="383" r="14" fill="#b3261e"/><path d="M117 378 l10 10 M127 378 l-10 10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text font-size="18" font-weight="400" fill="#6b756d"><tspan x="150" y="389">“Error details: email_channel_not_found”</tspan></text>
+  <rect x="570" y="196" width="460" height="280" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+  <text x="598" y="244" font-size="23" font-weight="600" fill="#1c2620">Be concise</text>
+  <text x="598" y="274" font-size="16" fill="#6b756d">One idea per sentence, under 20 words.</text>
+  <line x1="598" y1="298" x2="1002" y2="298" stroke="#ece8dd" stroke-width="2"/>
+  <circle cx="612" cy="330" r="14" fill="#1f7a3a"/><path d="M606 330 l4.5 4.5 l8 -9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-size="19" font-weight="500" fill="#1c2620"><tspan x="640" y="336">“Press the add button to start”</tspan></text>
+  <circle cx="612" cy="383" r="14" fill="#b3261e"/><path d="M607 378 l10 10 M617 378 l-10 10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text font-size="18" font-weight="400" fill="#6b756d"><tspan x="640" y="389">“In order to get started the add button</tspan><tspan x="640" y="414">should be selected by the user by</tspan><tspan x="640" y="439">clicking on it”</tspan></text>
+  <rect x="1060" y="196" width="460" height="280" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+  <text x="1088" y="244" font-size="23" font-weight="600" fill="#1c2620">Be inclusive</text>
+  <text x="1088" y="274" font-size="16" fill="#6b756d">Words that work for every reader.</text>
+  <line x1="1088" y1="298" x2="1492" y2="298" stroke="#ece8dd" stroke-width="2"/>
+  <circle cx="1102" cy="330" r="14" fill="#1f7a3a"/><path d="M1096 330 l4.5 4.5 l8 -9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-size="19" font-weight="500" fill="#1c2620"><tspan x="1130" y="336">“Show all”</tspan></text>
+  <circle cx="1102" cy="383" r="14" fill="#b3261e"/><path d="M1097 378 l10 10 M1107 378 l-10 10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text font-size="18" font-weight="400" fill="#6b756d"><tspan x="1130" y="389">“See all”</tspan></text>
+  <rect x="80" y="506" width="460" height="280" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+  <text x="108" y="554" font-size="23" font-weight="600" fill="#1c2620">Use the active voice</text>
+  <text x="108" y="584" font-size="16" fill="#6b756d">The subject does the action.</text>
+  <line x1="108" y1="608" x2="512" y2="608" stroke="#ece8dd" stroke-width="2"/>
+  <circle cx="122" cy="640" r="14" fill="#1f7a3a"/><path d="M116 640 l4.5 4.5 l8 -9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-size="19" font-weight="500" fill="#1c2620"><tspan x="150" y="646">“Alex Doe updated their profile last</tspan><tspan x="150" y="673">week”</tspan></text>
+  <circle cx="122" cy="720" r="14" fill="#b3261e"/><path d="M117 715 l10 10 M127 715 l-10 10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text font-size="18" font-weight="400" fill="#6b756d"><tspan x="150" y="726">“The profile has been updated by the</tspan><tspan x="150" y="751">user Alex Doe last week”</tspan></text>
+  <rect x="570" y="506" width="460" height="280" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+  <text x="598" y="554" font-size="23" font-weight="600" fill="#1c2620">Be polite</text>
+  <text x="598" y="584" font-size="16" fill="#6b756d">Guide the reader, don&#x27;t command them.</text>
+  <line x1="598" y1="608" x2="1002" y2="608" stroke="#ece8dd" stroke-width="2"/>
+  <circle cx="612" cy="640" r="14" fill="#1f7a3a"/><path d="M606 640 l4.5 4.5 l8 -9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-size="19" font-weight="500" fill="#1c2620"><tspan x="640" y="646">“Log in to continue”</tspan></text>
+  <circle cx="612" cy="693" r="14" fill="#b3261e"/><path d="M607 688 l10 10 M617 688 l-10 10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text font-size="18" font-weight="400" fill="#6b756d"><tspan x="640" y="699">“You must be logged in to continue”</tspan></text>
+  <rect x="1060" y="506" width="460" height="280" rx="16" fill="#ffffff" stroke="#d6d0bf" stroke-width="2"/>
+  <text x="1088" y="554" font-size="23" font-weight="600" fill="#1c2620">Be to the point</text>
+  <text x="1088" y="584" font-size="16" fill="#6b756d">Put the action at the start.</text>
+  <line x1="1088" y1="608" x2="1492" y2="608" stroke="#ece8dd" stroke-width="2"/>
+  <circle cx="1102" cy="640" r="14" fill="#1f7a3a"/><path d="M1096 640 l4.5 4.5 l8 -9" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text font-size="19" font-weight="500" fill="#1c2620"><tspan x="1130" y="646">“Save your progress before continuing”</tspan></text>
+  <circle cx="1102" cy="693" r="14" fill="#b3261e"/><path d="M1097 688 l10 10 M1107 688 l-10 10" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text font-size="18" font-weight="400" fill="#6b756d"><tspan x="1130" y="699">“Before continuing, you need to save</tspan><tspan x="1130" y="724">your progress”</tspan></text>
+  <text x="80" y="842" font-size="17" fill="#6b756d">Examples from the guide, with names anonymised. Each rule is short enough to remember and concrete enough to check a string against.</text>
+</svg>

@@ -277,3 +277,83 @@ main {
     font-size: 1.05rem;
   }
 }
+
+/* ---------- Writing guide: do / don't examples ---------- */
+.case-body .guide-examples {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.case-body .guide-examples li {
+  position: relative;
+  margin: 0;
+  padding: 0.85rem 1rem 0.85rem 3rem;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background-color: var(--bg-secondary);
+  line-height: 1.5;
+}
+
+.case-body .guide-examples li::before {
+  position: absolute;
+  left: 1rem;
+  top: 0.85rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+.case-body .guide-examples .guide-do::before {
+  content: "✓";
+  background-color: #1f7a3a;
+}
+
+.case-body .guide-examples .guide-dont::before {
+  content: "✕";
+  background-color: #b3261e;
+}
+
+.case-body .guide-examples .guide-dont {
+  color: var(--text-tertiary);
+}
+
+.guide-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---------- Call to action inside a case study ---------- */
+.case-cta {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background-color: var(--bg-secondary);
+}
+
+.case-body .case-cta p {
+  margin: 0 0 0.5rem;
+}
+
+.case-cta a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.case-cta a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}

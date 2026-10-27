@@ -1,0 +1,247 @@
+/* Reading pages for fiction and non-fiction (read/*.html).
+   Each page sets --piece to the colour of its cover. */
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+.read-cover {
+  margin: 0 0 2.5rem;
+}
+
+.read-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.read-eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.read-eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  background-color: var(--piece);
+  vertical-align: -0.05em;
+}
+
+.read-title {
+  margin: 0 0 1rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+}
+
+.read-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: var(--text-tertiary);
+}
+
+.read-meta a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.read-meta a:hover {
+  text-decoration: underline;
+}
+
+.read-intro {
+  margin: 0 0 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+/* ---------- The text ---------- */
+.read-text {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  hyphens: auto;
+}
+
+.read-text p {
+  margin: 0 0 1.1em;
+}
+
+.read-text h2 {
+  margin: 3rem 0 1.5rem;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.read-text h2::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 3px;
+  margin-top: 0.75rem;
+  border-radius: 2px;
+  background-color: var(--piece);
+}
+
+.read-text h2:first-child {
+  margin-top: 0;
+}
+
+/* Text that appears on a screen or over a speaker: TV quiz, metro announcements */
+.read-text .screen {
+  margin: 1.5rem 0;
+  padding: 0.6rem 1rem;
+  border-left: 4px solid var(--piece);
+  border-radius: 0 8px 8px 0;
+  background-color: var(--bg-secondary);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.read-text .screen-line {
+  display: block;
+}
+
+.read-text .screen-line + .screen-line {
+  margin-top: 0.35rem;
+}
+
+/* Scripts: speaker labels, stage directions, credits */
+.read-text .speaker {
+  margin: 2.25rem 0 0.4rem;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+}
+
+.read-text .speaker::before {
+  content: "";
+  display: inline-block;
+  width: 0.55em;
+  height: 0.55em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  background-color: var(--piece);
+}
+
+.read-text .direction {
+  font-style: italic;
+  color: var(--text-tertiary);
+}
+
+.read-text .direction em {
+  font-style: normal;
+}
+
+.read-text .credits {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.read-text .credits-start {
+  margin-top: 2.5rem;
+}
+
+.read-text .credits-end {
+  margin-bottom: 2.5rem;
+}
+
+.read-text .credits strong {
+  display: block;
+  margin-top: 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+}
+
+.read-text .break {
+  margin: 2.25rem 0;
+  text-align: center;
+  color: var(--piece);
+  letter-spacing: 0.2em;
+}
+
+.read-text .bibliography {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding-left: 1.5rem;
+  text-indent: -1.5rem;
+}
+
+/* ---------- End of the piece ---------- */
+.read-end {
+  margin: 3.5rem 0 0;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.95rem;
+  color: var(--text-tertiary);
+}
+
+.read-end p {
+  margin: 0 0 0.5rem;
+}
+
+.read-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.read-nav a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.read-nav a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 2rem 1.25rem 4rem;
+  }
+
+  .read-text {
+    font-size: 1.1rem;
+  }
+}

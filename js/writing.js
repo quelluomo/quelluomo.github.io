@@ -1,7 +1,9 @@
 // Writing & zines — add a new entry here and it shows up on writing.html.
 // external: true opens the link in a new tab (use for PDFs and off-site links).
+// Fiction and non-fiction link to a reading page in read/, built by tools/build_reading.py.
 // image: optional cover in assets/writing/covers/ — falls back to a placeholder.
-// category format: "Genre · Language" (e.g. "Non-fiction · English").
+// category format: "Genre · Form · Language" (e.g. "Fiction · Short story · English").
+// Genres and cover colours: fiction = oranges, non-fiction = blues, poetry = purples, zine = greens.
 
 // Highlighted pieces — shown first, under "Start here".
 export const featured = [
@@ -11,17 +13,15 @@ export const featured = [
     description:
       "The ordeal of Guillaume Le Gentil and his decades-long attempt to observe the transit of Venus.",
     image: "assets/writing/covers/blinded.png",
-    link: "./assets/writing/blinded-by-a-goddess.pdf",
-    external: true,
+    link: "./read/blinded-by-a-goddess.html",
   },
   {
     title: "The No Gaming Zone",
-    category: "Monologue · English",
+    category: "Non-fiction · Monologue · English",
     description:
       "A monologue on growing up with video games and the pull of nearly going pro.",
     image: "assets/writing/covers/no-gaming.png",
-    link: "./assets/writing/the-no-gaming-zone.pdf",
-    external: true,
+    link: "./read/the-no-gaming-zone.html",
   },
   {
     title: "Lacrosse Weekly 01",
@@ -33,12 +33,11 @@ export const featured = [
   },
   {
     title: "Tutta la vita davanti, insieme",
-    category: "Short story · Italiano",
+    category: "Fiction · Short story · Italiano",
     description:
       "Un racconto sull'adolescenza e su tutti i suoi alti e bassi.",
     image: "assets/writing/covers/tutta-la-vita.png",
-    link: "./assets/writing/tutta-la-vita-davanti-insieme.pdf",
-    external: true,
+    link: "./read/tutta-la-vita-davanti-insieme.html",
   },
 ];
 
@@ -71,23 +70,21 @@ export const others = [
   },
   {
     title: "Nearly Seven Minutes",
-    category: "Short story · English",
+    category: "Fiction · Short story · English",
     description: "A short story.",
     image: "assets/writing/covers/7-minutes.png",
-    link: "./assets/writing/7-minutes.pdf",
-    external: true,
+    link: "./read/nearly-seven-minutes.html",
   },
   {
     title: "Flipped Over Penguins",
-    category: "Short story · English",
+    category: "Fiction · Short story · English",
     description: "A short story.",
     image: "assets/writing/covers/flipped-over.png",
-    link: "./assets/writing/flipped-over-penguins.pdf",
-    external: true,
+    link: "./read/flipped-over-penguins.html",
   },
   {
     title: "Imitation of Life",
-    category: "Experimental · English",
+    category: "Fiction · Experimental · English",
     description:
       "A book written — and meant to be read — in random order. Shuffle the pages and start anywhere.",
     image: "assets/writing/covers/imitation.png",
